@@ -1,8 +1,9 @@
 streamlit
 langchain
+langchain-community
+langchain-openai
 openai
 faiss-cpu
+pymupdf
 python-dotenv
-PyMuPDF
-tqdm
 
