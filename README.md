@@ -84,7 +84,7 @@ This project reflects practical, production-grade experience combining **AI**, *
 **Ghulam Hussain Khuhro**  
 AI/ML Engineer · Data Scientist · Google-Certified Data Analyst  
 📬 ghulamhussain.developer@gmail.com  
-🌐 [LinkedIn](#) • [GitHub](#) • [Portfolio](#)
+🌐 [LinkedIn](https://www.linkedin.com/in/ghulamhussainkhuhro/) • [GitHub](https://github.com/ghulamhussainkhuhro/) • [Portfolio](https://ghulamhussainkhuhro.github.io/)
 
 ---
 
