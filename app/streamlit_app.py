@@ -10,15 +10,15 @@ from uuid import uuid4
 
 load_dotenv()
 
-st.set_page_config(page_title="📚 PDF Chatbot", layout="wide", page_icon="📄")
+st.set_page_config(page_title=" PDF Chatbot", layout="wide", page_icon="")
 
 # Sidebar
 with st.sidebar:
-    st.title("📄 PDF AI Assistant")
+    st.title("PDF AI Assistant")
     st.write("Upload a PDF and chat with it using Azure OpenAI.")
     dark_mode = st.checkbox("🌙 Dark Mode", value=True)
     st.markdown("---")
-    st.markdown("👨‍💻 Built by [Your Name](#)")
+    st.markdown("👨‍💻 Built by [Ghulam Hussain](https://github.com/ghulamhussainkhuhro)")
 
 # Main UI
 st.title("💬 Chat With Your PDF")
@@ -31,7 +31,7 @@ if pdf_file:
 
     with st.spinner("📥 Loading PDF..."):
         raw_text = load_pdf_text(temp_pdf_path)
-        st.success(f"✅ Extracted {len(raw_text)} characters")
+        st.success(f"Extracted {len(raw_text)} characters")
 
     with st.spinner("📚 Generating vectorstore..."):
         vectorstore = get_vectorstore(raw_text)
