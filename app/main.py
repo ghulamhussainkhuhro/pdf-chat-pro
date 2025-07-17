@@ -11,7 +11,7 @@ from backend.pipeline import load_pdf_text, get_vectorstore, get_qa_chain
 
 def main():
     print("📥 Loading PDF...")
-    text = load_pdf_text("data/Resume_Ghulam_Hussain_Khuhro.pdf")
+    text = load_pdf_text("data/Introduction_to_AI_Assistants.pdf")
 
     print("📚 Generating vectorstore...")
     vectorstore = get_vectorstore(text)
